@@ -1,3 +1,9 @@
-for i in [1, 2, 5]:
-    print(i)
+def hello():
+    print("Hello World!")
 
+hello()
+
+def hello(object):
+    print("Hello " + object + "!")
+
+hello("cat")
